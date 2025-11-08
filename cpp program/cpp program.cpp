@@ -13,12 +13,21 @@ int main() {
 		cout << "Enter another number (y): " << endl;
 	}
 	cin >> y;
+	if (y == 0) {
+		cout << "Don't do that." << endl;
+		return 1;
+	}
+	else {
 		cout << "Results: " << endl;
 		cout << "Addition: " << x + y << endl;
 		cout << "Subtraction: " << x - y << endl;
 		cout << "Multiplication: " << x * y << endl;
 		cout << "Division (x / y): " << x / y << endl;
 		cout << "Division (y / x): " << y / x << endl;
+		cout << "Modulus: " << x % y << endl;
+		cout << "Press Enter/Return to exit" << endl;
+		cin.get();
+		cin.ignore();
 		return 0;
 	}
 }
