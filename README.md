@@ -1,4 +1,4 @@
-A basic calculator written in C++
+A basic calculator written in C++ for Windows
 
 Features:
 
