@@ -1,6 +1,6 @@
-A basic calculator written in C++ for Windows
+# A basic calculator written in C++ for Windows
 
-Features:
+## Features:
 
 -Addition
 
@@ -9,3 +9,5 @@ Features:
 -Multiplication
 
 -Division
+
+**-Modulus Calculation**
