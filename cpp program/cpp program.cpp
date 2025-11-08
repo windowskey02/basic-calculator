@@ -13,11 +13,6 @@ int main() {
 		cout << "Enter another number (y): " << endl;
 	}
 	cin >> y;
-	if (y == 0) {
-		cout << "Don't do that." << endl;
-		return 1;
-	}
-	else {
 		cout << "Results: " << endl;
 		cout << "Addition: " << x + y << endl;
 		cout << "Subtraction: " << x - y << endl;
